@@ -52,7 +52,7 @@ describe('dapp test', function () {
       //  cy.go('back')
 
 
-      //player
+      //player plays
       cy.get('#audioPlayer').should('be.visible')
       cy.get('.mr-4').should('be.visible')
     })
