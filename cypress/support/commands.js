@@ -9,5 +9,7 @@ Cypress.Commands.add("SignIn", () => {
     cy.contains('Sign in').should('be.visible')
     cy.get('input[type="password"]').type('shubham1822')
     cy.contains('Sign In').should('be.visible').click()
+
+  
    
 })
